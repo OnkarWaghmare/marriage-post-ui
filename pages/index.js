@@ -11,7 +11,7 @@ export default function Home(props) {
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <h2>Hello this is custom marriage post In progress !</h2>
         <p>Bride Name : {props.postData.brideName}</p>
-        <p>Groom's Name: {props.postData.groomName}</p>
+        <p>Grooms Name: {props.postData.groomName}</p>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <img src={props.postData.image}></img>
         </div>
